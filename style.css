@@ -1,0 +1,67 @@
+/*
+ selectores
+*/
+
+/* selector universal */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+/* selector de etiqueta */
+h1{
+    background: red;
+    color: White;
+    padding: 10px;
+}
+
+a{
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+/* selector compuesto */
+footer a {
+    color: red;
+}
+
+/* selector de id para unicos elementos */
+#descripcion{
+    border: 1px solid black; 
+    padding: 15px;
+}
+
+#titulo{
+    background: blue;
+}
+
+/* selector de clases para muchos elementos*/
+
+.parrafo{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.parrafo1, parrafo3 {
+    background-color: green;
+    color: white;
+    padding: 15px;
+}
+
+.parrafo3{
+    background-color: orange;
+    color: black;
+}
+
+
+/* selector de atributo */
+
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#usuario form * {
+    display: block;
+}
