@@ -16,6 +16,19 @@ h1{
     /* font-style: normal; */
     /* font-style: oblique; */
     /* font-style: italic; */
+
+    /* colores https://www.w3schools.com/cssref/css_colors.asp */
+
+/* colores del sistema */
+color: mediumseagreen;
+/* color hexadecimal */
+color: #FF8C00;
+/* color rgb */
+color: rgb(42, 207, 92);
+
+/* color rgba*/
+color: rgba(217, 52, 52, 0.3);
+
 }
 h3{
     font-family: 'Comic Sans MS';
@@ -28,3 +41,4 @@ p{
     font-size: 20px;
     font-weight: bold;
 }
+
