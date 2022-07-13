@@ -1,0 +1,30 @@
+/*se puede importar de esta forma 
+ @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap'); 
+ */
+/* con archivos */
+@font-face {
+    /* nombre personalizado que le colocamos */
+    font-family: EduFontCustom;
+    src: url(fonts/eduvicwantbeginner/EduVICWANTBeginner-VariableFont_wght.ttf);
+}
+
+
+h1{
+
+    font-family: EduFontCustom, 'Edu VIC WA NT Beginner', cursive;
+    font-style: initial;
+    /* font-style: normal; */
+    /* font-style: oblique; */
+    /* font-style: italic; */
+}
+h3{
+    font-family: 'Comic Sans MS';
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
