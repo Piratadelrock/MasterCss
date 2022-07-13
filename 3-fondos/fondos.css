@@ -1,7 +1,24 @@
 body {
   /* background: red imagen repeticion posicion; */
   background-color: #ccc;
-  background-image: url("img/patron1.png");
+  background-image: url("img/dinos.png");
+  background-repeat: repeat;
+  background-size: 40%;
+  /* mantener la imagen y mover el texto */
+  background-attachment: fixed;
+    /* para mover la imagen  */
+  background-position:left bottom;
+  color: white;
+  text-indent: 15px;
+/* 
+  background-color: #fff;
+background-image:
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em; */
+
+/* word-spacing: 10px;
+letter-spacing: 2px; */
 }
 
 #caja {
@@ -9,15 +26,26 @@ body {
   padding: 10px;
   background-color: rgb(49, 152, 200);
   color: rgb(60, 13, 13);
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  vertical-align: top;
 }
 
 h2 {
   color: white;
   background-color: white;
+
   background: radial-gradient(black 15%, transparent 16%) 0 0,
     radial-gradient(black 15%, transparent 16%) 8px 8px,
     radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
     radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
   background-color: #282828;
   background-size: 16px 16px;
+}
+
+p{
+  text-align: justify;
+
 }
