@@ -15,9 +15,9 @@ h1{
 }
 
 a{
+    text-decoration: none;
     font-size: 18px;
     color: green;
-    text-decoration: none;
 }
 /* selector compuesto */
 footer a {
@@ -80,4 +80,24 @@ input[type="submit"]{
     text-transform: uppercase;
     border: 1px solid black;
     cursor: pointer;
+}
+
+/* selectores hijos */
+
+#menu > li > a{
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+}
+
+/* prioridad la ultima regla de css machaca la anterior*/
+
+/* css premia la especificidad, por lo que predomina este con el id */
+#saludo h1{
+    background: brown;
+}
+
+/* si colocamos !important */
+h1{
+    background: purple !important; 
 }
