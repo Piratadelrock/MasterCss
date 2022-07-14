@@ -3,6 +3,14 @@
     padding:0;
 
 }
+body {
+    padding:40px;
+}
+
+#cajas{
+    max-width: 1035px;
+    border: 1px solid black;
+}
 
 .caja {
     display: block;
@@ -29,5 +37,6 @@
 }
 
 .clearfix{
+    float:none;
     clear:both;
 }
