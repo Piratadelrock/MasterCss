@@ -18,6 +18,88 @@ CABECERA, MENU, BARRA LATERAL, SECCION DE CONTENIDO PRINCIPAL ELEMENTOS DENTRO D
     text-decoration: none;
 }
 
-body{
+#general{
+    width: 1200px;
+    margin: 0px auto;
+    border: 1px solid #ccc;
+}
 
+#header{ 
+    width: 100%;
+    height: 100px;
+    background-color: rgb(54, 120, 253);
+    color: white;
+    text-align: center;
+    line-height: 70px;
+
+}
+
+#menu {
+    background-color: #eee;
+
+}
+#menu ul li{
+    list-style: none;
+    /* display: inline-block; */
+    display: block;
+    float: left;
+    border-right: 1px solid #ccc;
+}
+#menu li > a{
+    color: #444;
+    padding: 10px;
+    display: block;
+}
+
+#menu ul li:hover{
+    background: rgb(16, 75, 143);
+    cursor: pointer;
+}
+    
+#menu ul li:hover a{
+    color:white;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+#contenido{
+    width: 69%;
+    float: left;
+}
+#lateral{
+    float: left;
+    width: 30%;
+    border: 1px solid red;
+    min-height: 500px;
+    text-align: center;
+
+}
+#contenido > h1{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    color:#444;
+}
+
+#contenido .caja{
+    width: 40%;
+    height: 250px;
+    background-color: red;
+    border: 5px solid blue;
+    color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+
+}
+
+#footer{
+    width: 100%;
+    height: 40px;
+    line-height: 55px;
+    background-color: #eee;
+    text-align: center;
+    color: #444;
+    border-top: 1px solid #ccc;
 }
