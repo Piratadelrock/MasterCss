@@ -49,6 +49,12 @@
         transform: rotate(180deg);
         border-radius: 999px;
     }
+    75%{
+        background-color: red;
+    }
+    77%{
+        border: 10px dashed black;
+    }
     100%{
         margin-left: 0px;
         transform: rotate(0deg);
