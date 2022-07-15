@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+ul li:first-child{
+    background: rgb(16, 75, 143);
+    cursor: pointer;
+}
+
+/* el segundo elemento de la lista o el elemento que asigne */
+ul li:nth-child(2){
+    background: rgb(34, 236, 71);
+    cursor: pointer;
+}
+
+ul li:last-child{
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+#enlace{
+    font-size: 20px;
+    color: lightsalmon;
+}
+#enlace:link{
+    color: green;
+}
+
+#enlace:visited{
+    color: orangered;
+}
+#enlace:hover{
+    color: blue;
+}
+#enlace:active{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    border: 4px dashed red;
+}
