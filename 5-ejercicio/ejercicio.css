@@ -72,7 +72,10 @@ CABECERA, MENU, BARRA LATERAL, SECCION DE CONTENIDO PRINCIPAL ELEMENTOS DENTRO D
     width: 30%;
     border: 1px solid red;
     min-height: 500px;
+    max-height: 650px;
     text-align: center;
+    overflow-y: scroll;
+
 
 }
 #contenido > h1{
