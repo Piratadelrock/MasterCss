@@ -216,7 +216,6 @@ button:active{
 /* BARRA LATERAL */
 
 #aside, #frase{
-    clear:both;
     width: 200px;
     float: left;
     margin: 30px;
@@ -227,6 +226,7 @@ button:active{
 }
 
 #frase{
+    clear:both;
     width: 180px;
     padding: 10px;
     font-size: 14px;
@@ -297,4 +297,13 @@ button:active{
     margin: 0 auto;
     text-align: center;
 
+}
+
+/* SECCIONES */
+
+#sections{
+    float:right;
+    width: 75%;
+    font-family: sans-serif,Arial, Helvetica;
+    margin-right: 20px;
 }
