@@ -27,6 +27,12 @@ a{
 a:hover{
     color: #284616;
 }
+.red{
+    color: #9b2422 !important;
+}
+.blue{
+    color: #0c73f2 !important;
+}
 
 /* FORMULARIOS */
 input[type="text"],
