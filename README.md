@@ -1,1 +1,2 @@
 "# MasterCss" 
+WEB NO RESPONSIVE (SOLO PC)
