@@ -9,6 +9,26 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "fajala";
+    src: url(fonts/FjallaOne-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "icons";
+    /* se usa web symbols y se mira los caracteres para poder dar el icono
+    para seleccionar el tipo de fuente se usa # */
+    src: url(fonts/websymbols-regular-webfont.svg#WebSymbolsRegular) format('svg'),
+        url(fonts/websymbols-regular-webfont.eot);
+    src:url(fonts/websymbols-regular-webfont.eot?#iefix) format('embedded-opentype'),
+        url(fonts/websymbols-regular-webfont.woff) format('woff'),
+        url(fonts/websymbols-regular-webfont.ttf) format('truetype'),
+        url(fonts/websymbols-regular-webfont.svg#WebSymbolsRegular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 /* ESTILOS GENERALES */
 * {
     margin: 0;
@@ -32,6 +52,20 @@ a:hover{
 }
 .blue{
     color: #0c73f2 !important;
+}
+.orange{
+    color: #d69d2a !important;
+}
+.icon{
+    font-family: "icons";
+    float: left;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+.clearfix{
+    float:none;
+    clear: both;
 }
 
 /* FORMULARIOS */
@@ -59,7 +93,8 @@ select {
 
 input[type="button"],
 input[type="submit"], 
-input[type="reset"], button{
+input[type="reset"], 
+button{
     display:block;
     border-radius: 2px;
     border: 1px solid green;
@@ -75,7 +110,8 @@ input[type="button"]:hover,
 input[type="submit"]:hover, 
 input[type="reset"]:hover,
 button:hover {
-    box-shadow: 0 0 2px gray ;
+    box-shadow: 0 0 2px gray;
+    box-shadow: 0 0 5px black inset;
 }
 input[type="button"]:active,
 input[type="submit"]:active, 
@@ -211,6 +247,8 @@ button:active{
     width: 1250px;
     min-height: 1100px;
     margin: 0 auto;
+    font-family: sans-serif,Arial, Helvetica;
+
 }
 
 /* BARRA LATERAL */
@@ -222,11 +260,9 @@ button:active{
     background-color: #F2F1F0;
     border: 1px solid #ccc;
     box-shadow: 0px 2px 2px gray;
-    font-family: sans-serif,Arial, Arial, Helvetica;   
 }
 
 #frase{
-    clear:both;
     width: 180px;
     padding: 10px;
     font-size: 14px;
@@ -306,4 +342,70 @@ button:active{
     width: 75%;
     font-family: sans-serif,Arial, Helvetica;
     margin-right: 20px;
+}
+
+#sections .title{
+    font-family: "fajala";
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+} 
+
+#sections section{
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 4px #c9c9c9;
+    color: #333;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+#sections .article{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sections .date{
+    color: gray;
+    font-size: 14px;
+}
+
+#sections .stickerOne,
+#sections .stickerTwo{
+    position: absolute;
+    margin-top: -38px;
+    z-index: 0;
+}
+
+#sections .stickerTwo{
+    margin-left: 850px;
+}
+
+#history{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+/* pie de pagina  */
+#footer{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px gray;
+
 }
