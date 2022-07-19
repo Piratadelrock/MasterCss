@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(6, 35, 35);
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: 'Century Gothic';
+    margin: 50px auto 30px auto;
+    color: #09fbd2;
+    width:100%;
+    text-align: center;
+    text-transform: uppercase;
+ }
+ .wrapper {
+    width: 720px;
+    height: 50px;
+    margin: 10% auto 0px auto;
+}
+.wrapper ul {
+    display: flex;
+    list-style: none;
+    margin: 30px auto 0px auto;
+    padding: 0;
+    width: auto;
+}
+.wrapper ul li {
+    flex: 1;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+}
+.wrapper ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.wrapper .highlight {
+    background: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
+    display: block;
+    z-index: -1;
+    padding: 3px;
+    box-sizing: border-box;
+    transform-origin: 0px 0px;
+    transform: rotate(180deg);
+    box-shadow: 0px 0px 10px #000 50;
+}
